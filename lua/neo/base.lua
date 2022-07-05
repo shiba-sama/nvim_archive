@@ -25,7 +25,7 @@ set.synmaxcol = 240            -- max column for syntax highlighting
 
 vim.cmd [[
    syntax enable
-   colorscheme tender
+   colorscheme desert
 ]]
 
 set.display = "lastline"
