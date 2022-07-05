@@ -38,7 +38,7 @@ vim.cmd [[
    augroup end
 ]]
 
--- Use a protected call so we don't error out on first use
+-- Use a protected call so we don"t error out on first use
 local status_ok, packer = pcall(require, "packer")
 if not status_ok then
    return
@@ -54,28 +54,28 @@ return packer.startup(function(use)
    use "neovim/nvim-lspconfig"                -- enable LSP
    -- use "github/copilot.vim"                   -- Microsoft Copilot
    use {
-      'nvim-lualine/lualine.nvim',
-      requires = { 'kyazdani42/nvim-web-devicons' },
+      "nvim-lualine/lualine.nvim",
+      requires = { "kyazdani42/nvim-web-devicons" },
    }
    use {
       "nvim-telescope/telescope.nvim",        -- beautiful find file interface
       requires = {{"nvim-lua/plenary.nvim" }}
    }
    use {                                      -- autocompletion
-      'hrsh7th/nvim-cmp',
+      "hrsh7th/nvim-cmp",
       requires = {
-         'L3MON4D3/LuaSnip',
-         'hrsh7th/cmp-nvim-lsp',
-         'hrsh7th/cmp-path',
-         'hrsh7th/cmp-buffer',
-         'saadparwaiz1/cmp_luasnip',
+         "L3MON4D3/LuaSnip",
+         "hrsh7th/cmp-nvim-lsp",
+         "hrsh7th/cmp-path",
+         "hrsh7th/cmp-buffer",
+         "saadparwaiz1/cmp_luasnip",
       },
    }
 
    -- ————————————————————————————————————————————
    -- Themes
 
-   use 'tanvirtin/monokai.nvim'
+   use "tanvirtin/monokai.nvim"
    use "EdenEast/nightfox.nvim"
    use "jacoborus/tender.vim"
 
