@@ -32,7 +32,6 @@ set.display = "lastline"
 set.number = true           -- absolute line numbers
 set.relativenumber = true   -- relative line numbers
 set.colorcolumn = "81"      -- column number
-set.list = true             -- enable invisible characters <listchars>
 set.listchars = {           -- requires <set list>
    eol = '↲',
    tab = '▸ ',

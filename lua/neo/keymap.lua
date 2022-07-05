@@ -1,9 +1,25 @@
 -- —————————————————————————————————————————————————————————————————————————————
--- General
+-- Variables
 
 vim.g.mapleader = ","
 vim.g.localleader = ","
+
+-- —————————————————————————————————————————————————————————————————————————————
+-- Editing
+
 vim.keymap.set("i", "<S-Tab>", "<C-d>")  -- shift-tab for un-indent
+vim.keymap.set("v", "<", "<gv")          -- retain selection after indent
+vim.keymap.set("v", ">", ">gv")          -- retain selection after unindent
+
+-- —————————————————————————————————————————————————————————————————————————————
+-- Saving and Quitting
+
+vim.keymap.set("n", "<leader>qq", ":q!<cr>")  -- quit without saving
+
+-- —————————————————————————————————————————————————————————————————————————————
+-- Interface
+
+vim.keymap.set("n", "<leader>@", ":set list!<cr>")  -- toggle invisible characters
 
 -- —————————————————————————————————————————————————————————————————————————————
 -- Telescope
