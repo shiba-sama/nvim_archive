@@ -8,6 +8,7 @@ require('lualine').setup {
      always_divide_middle = true,
      globalstatus = false,
    },
+   -- https://github.com/nvim-lualine/lualine.nvim#available-components
    sections = {
       lualine_a = {'mode'},
       lualine_b = {'branch', 'diff', 'diagnostics'},
