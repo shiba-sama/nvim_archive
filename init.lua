@@ -10,3 +10,4 @@ require("neo.auto")          -- auto commands
 -- Plugin Configuration
 
 require("plugins.nvim-cmp")  -- completion
+require("plugins.lualine")   -- status bar

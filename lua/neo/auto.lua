@@ -8,7 +8,7 @@ local augroup = vim.api.nvim_create_augroup
 -- Auto Commands
 
 -- ref: https://jeffkreeftmeijer.com/vim-number/
--- Change line number mode when switching between panes
+-- Change to absolute numbering when leaving focus
 vim.cmd [[
    augroup numbertoggle
       autocmd!

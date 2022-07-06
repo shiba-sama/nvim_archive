@@ -38,7 +38,7 @@ set("n", "L", "$")   -- L: jump to line end
 -- —————————————————————————————————————————————————————————————————————————————
 -- Telescope
 
-set('n', '<leader>ff', ':Telescope find_files<cr>')
-set('n', '<leader>fg', ':Telescope live_grep<cr>')
-set('n', '<leader>fb', ':Telescope buffers<cr>')
-set('n', '<leader>fh', ':Telescope help_tags<cr>')
+set("n", "<leader>ff", ":Telescope find_files<cr>")
+set("n", "<leader>fg", ":Telescope live_grep<cr>")
+set("n", "<leader>fb", ":Telescope buffers<cr>")
+set("n", "<leader>fh", ":Telescope help_tags<cr>")
