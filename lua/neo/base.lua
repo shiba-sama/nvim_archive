@@ -49,7 +49,8 @@ set.mouse = "a"         -- enable mouse support
 set.scrolloff = 2       -- vertical scroll visibility
 set.sidescrolloff = 5   -- horizontal scroll visibility
 set.cursorline = true   -- highlight current line
-set.splitright = true   -- enable vertical split
+set.splitright = true   -- enable horizontal split
+set.splitbelow = true   -- enable vertical split
 
 -- —————————————————————————————————————————————————————————————————————————————
 -- Editing
