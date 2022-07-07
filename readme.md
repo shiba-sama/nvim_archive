@@ -3,14 +3,15 @@
 This mostly Lua configuration is mostly modular in the sense that dependencies 
 are obvious and removal is easy.
 
-| file           | about                  | modular |
-| -------------- | ---------------------- | ------- |
-| `base.lua`     | generic configurations | ✓       |
-| `keymap.lua`   | keymaps                | ✗       |
-| `auto.lua`     | autocommands           | ✓       |
-| `packages.lua` | package manifest       | ✓       |
-| `lualine.lua`  | status bar             | ✗       |
-| `nvim-cmp.lua` | plugin configuration   | ✗       |
+| file             | about                        | modular |
+| ---------------- | ---------------------------- | ------- |
+| `base.lua`       | generic configurations       | ✓       |
+| `keymap.lua`     | keymaps                      | ✗       |
+| `auto.lua`       | autocommands                 | ✓       |
+| `packages.lua`   | package manifest             | ✓       |
+| `lualine.lua`    | status bar                   | ✗       |
+| `nvim-cmp.lua`   | auto-completion support      | ✗       |
+| `rust-tools.lua` | Rust language server support | ✗       |
 
 # Installation
 
