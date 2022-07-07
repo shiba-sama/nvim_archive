@@ -50,12 +50,13 @@ end
 -- Packages
 
 return packer.startup(function(use)
-   use "wbthomason/packer.nvim"        -- let Packer manage itself
-   use "nvim-lua/popup.nvim"           -- Popup API
-   use "nvim-lua/plenary.nvim"         -- Lua functions as deps for many plugins
-   use "neovim/nvim-lspconfig"         -- enable LSP
-   -- use "github/copilot.vim"            -- Microsoft Copilot
-   use {                               -- status bar
+   use "wbthomason/packer.nvim"          -- let Packer manage itself
+   use "nvim-lua/popup.nvim"             -- Popup API
+   use "nvim-lua/plenary.nvim"           -- Lua functions as deps for many plugins
+   use "neovim/nvim-lspconfig"           -- enable LSP
+   use "williamboman/nvim-lsp-installer" -- LSP installer
+   use "simrat39/rust-tools.nvim"        -- Rust LSP integration
+   use {                                 -- status bar
       "nvim-lualine/lualine.nvim",
       requires = { "kyazdani42/nvim-web-devicons", opt = true },
    }
